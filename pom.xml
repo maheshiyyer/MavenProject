@@ -7,6 +7,12 @@
   <version>1.1</version>
   <name>InfosysApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
+  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.2</version>
+</plugin>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -19,3 +25,4 @@
     <finalName>InfosysApp</finalName>
   </build>
 </project>
+
